@@ -1,0 +1,40 @@
+/* 
+
+.nd{
+   width:400px;
+   height:250px;
+  
+}
+
+.rd{
+  width:300px;
+   height:300px;
+}
+
+.slider{
+position: relative;
+overflow:hidden;
+margin:auto;
+width: 100%;
+
+}
+
+.slider img{
+        display :none;
+}
+
+img.displaySlide{
+    display:block;
+} */
+
+#myBox {
+    
+   position:absolute;
+   display: flex;
+   justify-content: center;  
+   align-items: center;      
+   background-color: greenyellow;
+   height: 50px;
+   width: 50px;
+}
+

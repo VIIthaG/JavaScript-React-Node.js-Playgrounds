@@ -1,0 +1,28 @@
+.tit::first-letter{
+background-color: blueviolet;
+font-size: 80px;
+}
+.tit{
+    text-align: center;
+}
+
+.cont{
+    color: coral;
+    margin-left:500px ;
+    display: grid;
+    place-items:center;
+    width: 400px;
+    transition:  3.2 ease;
+    }
+
+body{
+    background-color: grey;
+
+}
+
+.imgs{
+    border: 2px solid bisque;
+    display: inline-block;
+    border-radius: 20px;
+    padding 20px;
+}

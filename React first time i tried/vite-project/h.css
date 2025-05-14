@@ -1,0 +1,82 @@
+body{
+
+    background-color: gray;
+}
+
+
+.dropdown{
+    display: inline-block;
+}
+
+button{
+background-color: rgb(208, 211, 210);
+color: rgb(72, 70, 69);
+cursor: pointer;
+border:none;
+width:70px;
+height: 30px;
+
+}
+
+li{
+    background-color: bisque;
+    align-content: center;
+    list-style-type: none;
+    display: inline;
+    border-radius: 10px;
+    padding: 2px 2px;
+    
+   
+}
+.bro a{
+    text-align: center;
+}
+.hello{
+
+align-content: center;}
+h1{
+    text-align: center;
+ 
+}
+h1::first-letter{
+
+    font-size: 80px;
+    background-color: blueviolet;
+}
+a{
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding:10px 10px 10px;
+        display: inline-block
+        
+}
+
+
+.content{
+    display:none;
+    background-color: rgb(178, 180, 179);
+    width: 100px;
+    position:absolute;
+    min-width: 100px;
+    box-shadow:2px 2px 4px;
+}
+
+.dropdown:hover .content{
+
+    display:block;
+}
+
+.dropdown:hover button{
+    background-color: gold;
+}
+
+.content a:hover{
+
+    background-color: grey;
+}
+
+pre:hover{
+    color: chocolate;
+    transition: 0.3s ease;
+}

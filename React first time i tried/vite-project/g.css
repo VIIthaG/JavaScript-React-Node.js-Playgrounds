@@ -1,0 +1,40 @@
+
+h1::first-letter{
+    background-color: blueviolet;
+    font-size: 100px;
+}
+
+.container{
+
+    text-align: center;
+}
+
+a{
+    display: inline-block;
+    padding:10px 20px;
+    background-color: rgb(241, 234, 227);
+    border-radius: 10px;
+    width:5px;
+}
+
+a.ww{
+    background-color: rgb(244, 253, 171);
+    border: inline;
+    border-radius: 10px;
+    width:10px;
+height: 20px;
+}
+
+a.r{
+    background-color: rgb(244, 253, 171);
+    border-radius: 10px;
+    width:10px;
+height: 20px;
+}
+
+a:active{
+    color:green;
+}
+a:hover{
+    color:orange;
+}

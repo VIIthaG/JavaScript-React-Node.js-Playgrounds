@@ -1,0 +1,19 @@
+.class{
+    margin-left: 100px;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 500px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    
+    font-size: 40px;
+    margin: 10px;
+}

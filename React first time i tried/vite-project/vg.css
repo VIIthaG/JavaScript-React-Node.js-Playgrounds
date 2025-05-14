@@ -1,0 +1,76 @@
+
+.eebox{
+    width: 200px;
+    height:200px;
+    background-color:blueviolet;
+    position: relative;
+    right:0px;
+ 
+    
+   
+}
+
+.eebox2{
+
+    width: 200px;
+    height:50px;
+    background-color:rgb(43, 198, 226);
+    
+    position: absolute;
+}
+
+bdody{
+
+    background-image: url(Dark_Souls_Cover_Art.jpg);
+    background-size: 750;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;}
+
+WWcontainer +p{
+
+        border: 3px solid green;
+        margin-left:200px;
+    }    
+
+.wwb{
+    width:100px;
+
+}
+
+a:active{
+
+    color:rgb(227, 109, 55);
+    
+}
+
+a:hover{
+
+    color:aqua;
+}
+
+a:visited{
+
+    background-color: rgb(32, 34, 34);
+}
+
+li:not(:hover){
+    background-color: rgb(41, 162, 162);
+}
+
+h1::first-letter{
+    background-color: blueviolet;
+    flex: 1 1 0;
+    font-size:100px;
+    text-align: center;
+}
+
+p::first-line{
+
+    background-color: brown;
+}
+
+p::selection{
+    color: rgb(66, 155, 85);
+}
+

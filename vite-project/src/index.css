@@ -1,0 +1,47 @@
+/* .myDiv{
+    border: 1px solid white;
+    border-radius : 10px;
+    box-shadow: 5px 5px 5px gray ;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 550px;
+    display: inline-block;
+}
+
+img{
+    width: 50%;
+    height: auto;
+    border-radius: 30%;
+}
+
+.Title{
+    color: brown;
+} */
+
+.Student{
+    gap: 100px;
+    border:10px white solid;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 2px grey;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+    gap: 100px;
+}
+
+.noAuth, .wlcm{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:10px white solid;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 2px grey;
+}
